@@ -1,12 +1,11 @@
-def add():
- a,b=10,20
+def add(a,b):
  c=a+b
- print(c)
+ return c
 
 def sub():
  d,e=20,30
  f=d-e
  print(f)
 
-add()
+print(add(10,20))
 sub()
