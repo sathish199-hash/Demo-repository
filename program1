@@ -6,6 +6,11 @@ def sub():
  d,e=20,30
  f=d-e
  print(f)
+def mul():
+ print(5*5)
+if__name__=="__main__":
 
 print(add(10,20))
 sub()
+mul()
+
