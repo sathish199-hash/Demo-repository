@@ -5,12 +5,18 @@ def add(a,b):
 def sub():
  d,e=20,30
  f=d-e
- print(f)
+ print("Sub result = ", f)
+
 def mul():
- print(5*5)
+ print("Mul result = ", 5*5)
+
+def div():
+  print("Div result = ", 10/2)
+
+
 if__name__=="__main__":
 
-print(add(10,20))
-sub()
-mul()
+ print(add(10,20))
+ sub()
+ mul()
 
